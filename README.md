@@ -9,4 +9,15 @@
 
 首页点击后 卷帘动画
 
+![blog_home](../../Blog%20file/设计原型/blog-首页.png) "blog_home"
+
 前端结构 components 
+
+headbar （仅导航栏固定）
+footbar
+blog_Content
+blog_list
+leftbutton（猫，直达顶部）
+rightbutton 目录 搜索
+
+10/27 项目整合 卷帘动画

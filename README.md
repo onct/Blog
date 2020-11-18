@@ -19,5 +19,3 @@ blog_Content
 blog_list
 leftbutton（猫，直达顶部）
 rightbutton 目录 搜索
-
-10/27 项目整合 卷帘动画

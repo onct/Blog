@@ -1,5 +1,5 @@
 {
-  "name": "myblog",
+  "name": "homepage",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,12 +9,14 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "view-design": "^4.4.0",
+    "easy-typer-js": "^2.1.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "^4.5.8",
+    "@vue/cli-plugin-vuex": "^4.5.8",
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
@@ -33,7 +35,9 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "no-unused-vars": "off"
+    }
   },
   "browserslist": [
     "> 1%",
